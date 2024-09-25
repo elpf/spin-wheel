@@ -29,9 +29,9 @@ const randomstops = [
 ];
 
 function preload() {
-  this.load.image('wheel', '/assets/Wheel.png');
-  this.load.image('needle', '/assets/Needle.png');
-  this.load.image('base', '/assets/Base.png');
+  this.load.image('wheel', 'public/assets/Wheel.png');
+  this.load.image('needle', 'public/assets/Needle.png');
+  this.load.image('base', 'public/assets/Base.png');
 }
 
 function create() {
